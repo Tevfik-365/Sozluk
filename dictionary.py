@@ -8,6 +8,6 @@ meme_dict = {
 }
 word = input("enter words")
 if word in meme_dict.keys():
-print(meme_dict[kelime])
+print(meme_dict[word])
 else:
 print('word not in list')
